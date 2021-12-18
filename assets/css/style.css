@@ -381,3 +381,98 @@ nav ul li a:hover{
 .newsletter-textarea{
     width: 100%;
 }
+
+/* Sessão Contato */
+
+.section-contact{
+    padding-top: 200px;
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.contact-content h2{
+    color: var(--primery-color);
+    font-size: 59px;
+    padding-bottom: 45px;
+}
+
+#contato-descrição{
+    width: 58ch;
+    margin: auto;
+}
+
+.contact-content p{
+    color: var(--primery-color);
+    font-size: 25px;
+}
+
+.contact-content img{
+    width: 100%;
+    height: 433px;
+    border-radius: 20px;
+    padding:  73px 0;
+}
+
+/* Footer */
+
+.footer{
+    background-color: var(--primery-color);
+    margin-top: 73px;
+    padding-top: 85px;
+    position: relative;
+}
+
+.logo h2{
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 82px;
+
+}
+
+.footer-content ul{
+    list-style: none;
+    
+}
+.footer-content ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+    padding-right: 117px;
+}
+
+.footer-content img{
+    position: absolute;
+    left: 63%;
+    bottom: 37%;
+    width: 250px;
+}
+
+.footer-copyright{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    color: #fff;
+    font-size: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-copyright ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.footer-copyright ul li{
+    padding-left: 10px;
+}
+
